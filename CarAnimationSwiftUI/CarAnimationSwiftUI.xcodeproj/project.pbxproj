@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0C71B322CAD1DEB00CA6167 /* CarAnimationSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C71B312CAD1DEB00CA6167 /* CarAnimationSwiftUIApp.swift */; };
+		A0C71B342CAD1DEB00CA6167 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C71B332CAD1DEB00CA6167 /* ContentView.swift */; };
+		A0C71B362CAD1DEC00CA6167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0C71B352CAD1DEC00CA6167 /* Assets.xcassets */; };
+		A0C71B392CAD1DEC00CA6167 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0C71B382CAD1DEC00CA6167 /* Preview Assets.xcassets */; };
+		A0C71B432CAD1DEC00CA6167 /* CarAnimationSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C71B422CAD1DEC00CA6167 /* CarAnimationSwiftUITests.swift */; };
+		A0C71B4D2CAD1DEC00CA6167 /* CarAnimationSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C71B4C2CAD1DEC00CA6167 /* CarAnimationSwiftUIUITests.swift */; };
+		A0C71B4F2CAD1DEC00CA6167 /* CarAnimationSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C71B4E2CAD1DEC00CA6167 /* CarAnimationSwiftUIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0C71B3F2CAD1DEC00CA6167 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0C71B262CAD1DEB00CA6167 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0C71B2D2CAD1DEB00CA6167;
+			remoteInfo = CarAnimationSwiftUI;
+		};
+		A0C71B492CAD1DEC00CA6167 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0C71B262CAD1DEB00CA6167 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0C71B2D2CAD1DEB00CA6167;
+			remoteInfo = CarAnimationSwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0C71B2E2CAD1DEB00CA6167 /* CarAnimationSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarAnimationSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C71B312CAD1DEB00CA6167 /* CarAnimationSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarAnimationSwiftUIApp.swift; sourceTree = "<group>"; };
+		A0C71B332CAD1DEB00CA6167 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A0C71B352CAD1DEC00CA6167 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0C71B382CAD1DEC00CA6167 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A0C71B3E2CAD1DEC00CA6167 /* CarAnimationSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarAnimationSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C71B422CAD1DEC00CA6167 /* CarAnimationSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarAnimationSwiftUITests.swift; sourceTree = "<group>"; };
+		A0C71B482CAD1DEC00CA6167 /* CarAnimationSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarAnimationSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C71B4C2CAD1DEC00CA6167 /* CarAnimationSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarAnimationSwiftUIUITests.swift; sourceTree = "<group>"; };
+		A0C71B4E2CAD1DEC00CA6167 /* CarAnimationSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarAnimationSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0C71B2B2CAD1DEB00CA6167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C71B3B2CAD1DEC00CA6167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C71B452CAD1DEC00CA6167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0C71B252CAD1DEB00CA6167 = {
+			isa = PBXGroup;
+			children = (
+				A0C71B302CAD1DEB00CA6167 /* CarAnimationSwiftUI */,
+				A0C71B412CAD1DEC00CA6167 /* CarAnimationSwiftUITests */,
+				A0C71B4B2CAD1DEC00CA6167 /* CarAnimationSwiftUIUITests */,
+				A0C71B2F2CAD1DEB00CA6167 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0C71B2F2CAD1DEB00CA6167 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0C71B2E2CAD1DEB00CA6167 /* CarAnimationSwiftUI.app */,
+				A0C71B3E2CAD1DEC00CA6167 /* CarAnimationSwiftUITests.xctest */,
+				A0C71B482CAD1DEC00CA6167 /* CarAnimationSwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0C71B302CAD1DEB00CA6167 /* CarAnimationSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				A0C71B312CAD1DEB00CA6167 /* CarAnimationSwiftUIApp.swift */,
+				A0C71B332CAD1DEB00CA6167 /* ContentView.swift */,
+				A0C71B352CAD1DEC00CA6167 /* Assets.xcassets */,
+				A0C71B372CAD1DEC00CA6167 /* Preview Content */,
+			);
+			path = CarAnimationSwiftUI;
+			sourceTree = "<group>";
+		};
+		A0C71B372CAD1DEC00CA6167 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A0C71B382CAD1DEC00CA6167 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A0C71B412CAD1DEC00CA6167 /* CarAnimationSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0C71B422CAD1DEC00CA6167 /* CarAnimationSwiftUITests.swift */,
+			);
+			path = CarAnimationSwiftUITests;
+			sourceTree = "<group>";
+		};
+		A0C71B4B2CAD1DEC00CA6167 /* CarAnimationSwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0C71B4C2CAD1DEC00CA6167 /* CarAnimationSwiftUIUITests.swift */,
+				A0C71B4E2CAD1DEC00CA6167 /* CarAnimationSwiftUIUITestsLaunchTests.swift */,
+			);
+			path = CarAnimationSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0C71B2D2CAD1DEB00CA6167 /* CarAnimationSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0C71B522CAD1DEC00CA6167 /* Build configuration list for PBXNativeTarget "CarAnimationSwiftUI" */;
+			buildPhases = (
+				A0C71B2A2CAD1DEB00CA6167 /* Sources */,
+				A0C71B2B2CAD1DEB00CA6167 /* Frameworks */,
+				A0C71B2C2CAD1DEB00CA6167 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarAnimationSwiftUI;
+			productName = CarAnimationSwiftUI;
+			productReference = A0C71B2E2CAD1DEB00CA6167 /* CarAnimationSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0C71B3D2CAD1DEC00CA6167 /* CarAnimationSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0C71B552CAD1DEC00CA6167 /* Build configuration list for PBXNativeTarget "CarAnimationSwiftUITests" */;
+			buildPhases = (
+				A0C71B3A2CAD1DEC00CA6167 /* Sources */,
+				A0C71B3B2CAD1DEC00CA6167 /* Frameworks */,
+				A0C71B3C2CAD1DEC00CA6167 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0C71B402CAD1DEC00CA6167 /* PBXTargetDependency */,
+			);
+			name = CarAnimationSwiftUITests;
+			productName = CarAnimationSwiftUITests;
+			productReference = A0C71B3E2CAD1DEC00CA6167 /* CarAnimationSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0C71B472CAD1DEC00CA6167 /* CarAnimationSwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0C71B582CAD1DEC00CA6167 /* Build configuration list for PBXNativeTarget "CarAnimationSwiftUIUITests" */;
+			buildPhases = (
+				A0C71B442CAD1DEC00CA6167 /* Sources */,
+				A0C71B452CAD1DEC00CA6167 /* Frameworks */,
+				A0C71B462CAD1DEC00CA6167 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0C71B4A2CAD1DEC00CA6167 /* PBXTargetDependency */,
+			);
+			name = CarAnimationSwiftUIUITests;
+			productName = CarAnimationSwiftUIUITests;
+			productReference = A0C71B482CAD1DEC00CA6167 /* CarAnimationSwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0C71B262CAD1DEB00CA6167 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A0C71B2D2CAD1DEB00CA6167 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					A0C71B3D2CAD1DEC00CA6167 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A0C71B2D2CAD1DEB00CA6167;
+					};
+					A0C71B472CAD1DEC00CA6167 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A0C71B2D2CAD1DEB00CA6167;
+					};
+				};
+			};
+			buildConfigurationList = A0C71B292CAD1DEB00CA6167 /* Build configuration list for PBXProject "CarAnimationSwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0C71B252CAD1DEB00CA6167;
+			productRefGroup = A0C71B2F2CAD1DEB00CA6167 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0C71B2D2CAD1DEB00CA6167 /* CarAnimationSwiftUI */,
+				A0C71B3D2CAD1DEC00CA6167 /* CarAnimationSwiftUITests */,
+				A0C71B472CAD1DEC00CA6167 /* CarAnimationSwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0C71B2C2CAD1DEB00CA6167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C71B392CAD1DEC00CA6167 /* Preview Assets.xcassets in Resources */,
+				A0C71B362CAD1DEC00CA6167 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C71B3C2CAD1DEC00CA6167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C71B462CAD1DEC00CA6167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0C71B2A2CAD1DEB00CA6167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C71B342CAD1DEB00CA6167 /* ContentView.swift in Sources */,
+				A0C71B322CAD1DEB00CA6167 /* CarAnimationSwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C71B3A2CAD1DEC00CA6167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C71B432CAD1DEC00CA6167 /* CarAnimationSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C71B442CAD1DEC00CA6167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C71B4F2CAD1DEC00CA6167 /* CarAnimationSwiftUIUITestsLaunchTests.swift in Sources */,
+				A0C71B4D2CAD1DEC00CA6167 /* CarAnimationSwiftUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0C71B402CAD1DEC00CA6167 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0C71B2D2CAD1DEB00CA6167 /* CarAnimationSwiftUI */;
+			targetProxy = A0C71B3F2CAD1DEC00CA6167 /* PBXContainerItemProxy */;
+		};
+		A0C71B4A2CAD1DEC00CA6167 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0C71B2D2CAD1DEB00CA6167 /* CarAnimationSwiftUI */;
+			targetProxy = A0C71B492CAD1DEC00CA6167 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A0C71B502CAD1DEC00CA6167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0C71B512CAD1DEC00CA6167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0C71B532CAD1DEC00CA6167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CarAnimationSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 8JZD2R84GX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shamshad.CarAnimationSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0C71B542CAD1DEC00CA6167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CarAnimationSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 8JZD2R84GX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shamshad.CarAnimationSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0C71B562CAD1DEC00CA6167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8JZD2R84GX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shamshad.CarAnimationSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarAnimationSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CarAnimationSwiftUI";
+			};
+			name = Debug;
+		};
+		A0C71B572CAD1DEC00CA6167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8JZD2R84GX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shamshad.CarAnimationSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarAnimationSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CarAnimationSwiftUI";
+			};
+			name = Release;
+		};
+		A0C71B592CAD1DEC00CA6167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8JZD2R84GX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shamshad.CarAnimationSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarAnimationSwiftUI;
+			};
+			name = Debug;
+		};
+		A0C71B5A2CAD1DEC00CA6167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8JZD2R84GX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shamshad.CarAnimationSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarAnimationSwiftUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0C71B292CAD1DEB00CA6167 /* Build configuration list for PBXProject "CarAnimationSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0C71B502CAD1DEC00CA6167 /* Debug */,
+				A0C71B512CAD1DEC00CA6167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0C71B522CAD1DEC00CA6167 /* Build configuration list for PBXNativeTarget "CarAnimationSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0C71B532CAD1DEC00CA6167 /* Debug */,
+				A0C71B542CAD1DEC00CA6167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0C71B552CAD1DEC00CA6167 /* Build configuration list for PBXNativeTarget "CarAnimationSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0C71B562CAD1DEC00CA6167 /* Debug */,
+				A0C71B572CAD1DEC00CA6167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0C71B582CAD1DEC00CA6167 /* Build configuration list for PBXNativeTarget "CarAnimationSwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0C71B592CAD1DEC00CA6167 /* Debug */,
+				A0C71B5A2CAD1DEC00CA6167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0C71B262CAD1DEB00CA6167 /* Project object */;
+}
